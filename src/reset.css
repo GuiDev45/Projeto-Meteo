@@ -1,0 +1,44 @@
+/* Reset CSS básico */
+
+/* Remover margens e preenchimentos padrão */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure, blockquote, fieldset, legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remover estilos de lista */
+ul, ol {
+  list-style: none;
+}
+
+/* Remover estilos de hyperlink padrão */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remover estilos de botão padrão */
+button, input {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Remover estilos padrão de formulário */
+input, textarea, select, button {
+  font: inherit;
+}
+
+/* Remover borda e cor de fundo padrão para elementos de formulário */
+input, textarea, select {
+  border: none;
+  background-color: transparent;
+}
+
+img {
+  display: block; /* Impede que as imagens sejam tratadas como texto, o que pode causar espaçamento indesejado */
+  max-width: 100%; /* Garante que as imagens não ultrapassem a largura de seus contêineres */
+  height: auto; /* Permite que as imagens mantenham sua proporção de aspecto ao dimensionar */
+}
